@@ -20,7 +20,7 @@ const toCSS = (item) => {
   const [prop, val] = item.split(":");
   return `${getBeginningWhitespace(prop)}${toHyphen(
     prop.trim()
-  )}: ${val.trim().replace(/'|,/g, "")};`;
+  )}: ${val.trim().replace(/'|"|,/g, "")};`;
 };
 
 module.exports = function convert(s) {
