@@ -1,11 +1,21 @@
 {
-  "name": "css-to-js",
-  "displayName": "css-to-js",
+  "name": "css_to_js",
+  "displayName": "css_to_js",
   "description": "Convert css to javascript object",
   "version": "0.0.1",
+  "publisher": "tgreen7",
   "engines": {
     "vscode": "^1.46.0"
   },
+  "homepage": "https://github.com/tgreen7/css_to_js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tgreen7/css_to_js"
+  },
+  "bugs": {
+    "url": "https://github.com/tgreen7/css_to_js/issues"
+  },
+  "license": "MIT",
   "categories": [
     "Other"
   ],
@@ -31,7 +41,7 @@
   },
   "keywords": [
     "css",
-    "css-to-js",
+    "css_to_js",
     "keybindings",
     "javascript"
   ],
