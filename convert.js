@@ -13,7 +13,7 @@ const toJS = (item) => {
   const [prop, val] = item.split(":");
   return `${getBeginningWhitespace(prop)}${toCamel(
     prop.trim()
-  )}: '${val.trim().replace(";", "")}',`;
+  )}: "${val.trim().replace(";", "")}",`;
 };
 
 const toCSS = (item) => {
