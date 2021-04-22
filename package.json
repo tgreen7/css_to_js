@@ -1,6 +1,6 @@
 {
-  "name": "css_to_js",
-  "displayName": "css_to_js",
+  "name": "css-to-js",
+  "displayName": "CSS to JS",
   "description": "Convert css to javascript object",
   "version": "0.0.1",
   "publisher": "tgreen7",
